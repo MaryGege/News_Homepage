@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(251, 229, 202);
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+}
+
+.list ul li{
+    float: right;
+    margin: 0 10px;
+    list-style-type: none;
+    color: grey;
+}
+.list ul li:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.img1 img{
+    height: 300px;
+    width: 730px;
+}
+
+.title1{
+    width: 300px;
+}
+
+.row2{
+    display: flex;
+    gap: 100px;
+
+}
+ 
+.info{
+    width: 300px;
+}
+.info p{
+    color: grey;
+}
+.btn1{
+    margin-top: 60px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(243, 75, 75);
+    color: black;
+    border: none;
+    font: bolder;
+    
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(12, 12, 42);
+    color: white;
+}
+
+.news{
+    height: 480px;
+    width: 400px;
+    background-color: rgb(12, 12, 42);
+    margin-top: -23%;
+    color: white;
+}
+.news h2:hover{
+    color: orange;
+    cursor: pointer;
+}
+.news h1{
+    color: rgb(243, 75, 75);
+
+}
+.line{
+    border: 1px solid grey;
+    width: 400px;
+}
+.news p{
+    color: grey;
+}
+.new1{
+    margin-top: 20px;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.row3 img{
+    height: 200px;
+    width: 200px;
+}
+.info2{
+    display: flex;
+}
+.info2 h2{
+    color: rgb(243, 75, 75);
+    margin-left: 10px;
+}
+.info2 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.info2 h4:hover{
+    color: rgb(243, 75, 75);
+    cursor: pointer;
+
+}
+.info2 p{
+    color: grey;
+    margin-left: 10px;
+    margin-top: 10px;
+}
